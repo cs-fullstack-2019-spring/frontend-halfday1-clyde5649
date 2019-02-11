@@ -1,0 +1,87 @@
+
+/* my css for my html*/
+
+body {
+    color: red;
+}
+
+#container{
+    margin: 5% 10% 10%;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 2fr 5fr 1fr 1fr;
+    grid-template-areas:
+            "header header header"
+            "button1 context button2"
+            "section1 section2 section3"
+            "footer footer footer"
+}
+
+header{
+    grid-area: header;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+article{
+    grid-area: context;
+    text-align: center;
+}
+
+#player1 {
+    grid-area: button1;
+    text-align: center;
+
+}
+
+#player2{
+    grid-area: button2;
+    text-align: center;
+}
+#section1{
+    grid-area: space1;
+    text-align: right;
+}
+#section2{
+    grid-area: space2;
+    text-align: center;
+}
+#section3{
+    grid-area: space3;
+    text-align: center;
+}
+
+#p1p{
+    font-size: 80px;
+    margin-bottom: 10%;
+}
+#KeepScore1{
+    font-size: 90px;
+}
+#p2p{
+    font-size: 70px;
+    margin-bottom: 10%;
+}
+#KeepScore2{
+    font-size: 90px;
+}
+
+footer {
+    text-align: center;
+    grid-area: footer;
+
+}
+
+/* set my buttons to changw colors*/
+.red{
+    background: red;
+}
+
+.blue{
+    background: blue;
+}
+
+.yellow {
+    background: yellow;
+}

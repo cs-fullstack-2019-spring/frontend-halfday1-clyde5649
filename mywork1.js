@@ -20,5 +20,13 @@ $("#yellow").click(function () {
 });
 
 
-var x = 1;
-var y = 1;
+var player1 =0;
+var player2 =0;
+
+
+var Player1= 0;
+$("#Player1").click(function () {
+    player1++;
+    console.log(Player1);
+    $("button1")
+});

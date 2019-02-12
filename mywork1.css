@@ -17,6 +17,10 @@ body {
             "footer footer footer"
 }
 
+header, article, section, footer{
+    border: 1px solid blue;
+}
+
 header{
     grid-area: header;
     text-align: center;
